@@ -1,4 +1,4 @@
-shuffle <- function(cards){
+shuffle <- function(){
   random <- sample(1:52, size = 52)
-  cards[random,]
+  assign("deck", DECK[random, ], envir = globalenv())
 }

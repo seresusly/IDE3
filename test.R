@@ -14,3 +14,5 @@ test <- function(start_with) {
     FALSE
   }
 }
+
+#sum(replicate(10,(replicate(1000, test(1000)))))/10/1000*100

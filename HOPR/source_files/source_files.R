@@ -1,3 +1,3 @@
-deck <- read.csv("deck.csv")
-rscripts <- Sys.glob("*.R")
+deck <- read.csv("HOPR/deck.csv")
+rscripts <- Sys.glob("HOPR/*.R")
 sapply(rscripts, source)

@@ -1,2 +1,2 @@
-ggplot(penguins, aes(x = flipper_length_mm, y = species)) + 
-  geom_bar()
+ggplot(penguins, aes(x = bill_depth_mm, y = bill_length_mm)) + 
+  geom_point()

@@ -1,3 +1,6 @@
+library(tidyverse)
+library(palmerpenguins)
+library(nycflights13)
 #deck <- read.csv("R4DS/deck.csv")
 rscripts <- Sys.glob("R4DS/*.R")
 sapply(rscripts, source)

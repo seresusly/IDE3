@@ -1,1 +1,1 @@
-docker run --rm -p 8787:8787 -e PASSWORD=kwSnjvkMgXqDYGynemLFxeDZTfDkYgVpJLWoOJOcAoEEQPdDuN -v /Users/carlos/Documents/IDE3/IDE3:/home/rstudio/IDE3 carlos1172/rstudio_server
+docker run --rm -p 8787:8787 -e PASSWORD=kwSnjvkMgXqDYGynemLFxeDZTfDkYgVpJLWoOJOcAoEEQPdDuN -v /Users/carlos/Documents/IDE3/IDE3:/home/rstudio/IDE3 -v /opt:/home/rstudio/opt carlos1172/rstudio_server

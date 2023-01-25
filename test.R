@@ -1,1 +1,1 @@
-gitcreds::gitcreds_fill(list(url="https://www.github.com"))
+gitcreds::gitcreds_get(url = "https://www.github.com")

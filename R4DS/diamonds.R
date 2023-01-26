@@ -1,9 +1,9 @@
-library(tidyverse)
+#library(tidyverse)
 
-ggplot(diamonds, aes(x = carat, y = price)) + 
-  geom_hex()
-ggsave("R4DS/diamonds.pdf")
+#ggplot(diamonds, aes(x = carat, y = price)) + 
+  #geom_hex()
+#ggsave("R4DS/diamonds.pdf")
 
-write_csv(diamonds, "R4DS/diamonds.csv")
+#write_csv(diamonds, "R4DS/diamonds.csv")
 
-reprex::reprex()
+#reprex::reprex()

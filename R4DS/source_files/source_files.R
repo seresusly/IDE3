@@ -1,7 +1,7 @@
-pkgs <- c("tidyverse", "palmerpenguins", "nycflights13", 
-             "gapminder", "janitor", "styler", "babynames", 
-             "usethis", "reprex", "ggridges", "hexbin", 
-             "ggrepel", "arrow", "patchwork")
+#pkgs <- c("tidyverse", "palmerpenguins", "nycflights13", 
+#             "gapminder", "janitor", "styler", "babynames", 
+#             "usethis", "reprex", "ggridges", "hexbin", 
+#             "ggrepel", "arrow", "patchwork")
 library(tidyverse)
 library(palmerpenguins)
 library(nycflights13)

@@ -379,12 +379,18 @@
     },
     "dplyr": {
       "Package": "dplyr",
-      "Version": "1.0.10",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "539412282059f7f0c07295723d23f987",
+      "Version": "1.0.99.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "dplyr",
+      "RemoteUsername": "tidyverse",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "94df8bf78f1c259caa95a601d78154ad46cf7db6",
+      "Hash": "c88a52fa5c4a0e96cb974d678b856604",
       "Requirements": [
         "R6",
+        "cli",
         "generics",
         "glue",
         "lifecycle",
@@ -1244,6 +1250,19 @@
         "stringr"
       ]
     },
+    "slider": {
+      "Package": "slider",
+      "Version": "0.3.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c1c73df260af9e1e3692eb3b8e1ecb88",
+      "Requirements": [
+        "cli",
+        "rlang",
+        "vctrs",
+        "warp"
+      ]
+    },
     "snakecase": {
       "Package": "snakecase",
       "Version": "0.11.0",
@@ -1511,6 +1530,14 @@
         "vctrs",
         "withr"
       ]
+    },
+    "warp": {
+      "Package": "warp",
+      "Version": "0.2.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "2982481615756e24e79fee95bdc95daa",
+      "Requirements": []
     },
     "whisker": {
       "Package": "whisker",

@@ -1,7 +1,12 @@
-#pkgs <- c("tidyverse", "palmerpenguins", "nycflights13", 
-#             "gapminder", "janitor", "styler", "babynames", 
-#             "usethis", "reprex", "ggridges", "hexbin", 
-#             "ggrepel", "arrow", "patchwork")
+# pkgs <- c("tidyverse", "palmerpenguins", "nycflights13", 
+#              "gapminder", "janitor", "styler", "babynames", 
+#              "usethis", "reprex", "ggridges", "hexbin", 
+#              "ggrepel", "arrow", "patchwork", "slider", "glue", 
+#              "stringr")
+# for (x in pkgs){
+#     install.packages(x)
+#     library(x, character.only = TRUE)
+# }
 library(tidyverse)
 library(palmerpenguins)
 library(nycflights13)
@@ -16,9 +21,9 @@ library(hexbin)
 library(ggrepel)
 library(arrow)
 library(patchwork)
-# for (x in pkgs){
-#     library(x, character.only = TRUE)
-# }
+library(slider)
+library(glue)
+library(stringr)
 #deck <- read.csv("R4DS/deck.csv")
 rscripts <- Sys.glob("R4DS/*.R")
 sapply(rscripts, source)

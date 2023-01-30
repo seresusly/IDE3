@@ -2,7 +2,7 @@
 #              "gapminder", "janitor", "styler", "babynames", 
 #              "usethis", "reprex", "ggridges", "hexbin", 
 #              "ggrepel", "arrow", "patchwork", "slider", "glue", 
-#              "stringr","forcats")
+#              "stringr","forcats","readxl")
 # for (x in pkgs){
 #     install.packages(x)
 #     library(x, character.only = TRUE)
@@ -26,6 +26,14 @@ library(glue)
 library(stringr)
 library(forcats)
 library(hms)
+library(readxl)
+#library(openxlsx)
+#library(xlsx)
+#library(XLConnect)
+#library(rJava)
+library(DBI)
+library(dbplyr)
+library(tidyverse)
 #deck <- read.csv("R4DS/deck.csv")
 rscripts <- Sys.glob("R4DS/*.R")
 sapply(rscripts, source)

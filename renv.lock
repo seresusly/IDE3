@@ -379,15 +379,10 @@
     },
     "dplyr": {
       "Package": "dplyr",
-      "Version": "1.0.99.9000",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "dplyr",
-      "RemoteUsername": "tidyverse",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "94df8bf78f1c259caa95a601d78154ad46cf7db6",
-      "Hash": "c88a52fa5c4a0e96cb974d678b856604",
+      "Version": "1.1.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "d3c34618017e7ae252d46d79a1b9ec32",
       "Requirements": [
         "R6",
         "cli",
@@ -465,19 +460,17 @@
     },
     "forcats": {
       "Package": "forcats",
-      "Version": "0.5.2",
+      "Version": "1.0.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "9d95bc88206321cd1bc98480ecfd74bb",
+      "Hash": "1a0a9a3d5083d0d573c4214576f1e690",
       "Requirements": [
         "cli",
-        "ellipsis",
         "glue",
         "lifecycle",
         "magrittr",
         "rlang",
-        "tibble",
-        "withr"
+        "tibble"
       ]
     },
     "fs": {

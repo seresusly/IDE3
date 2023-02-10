@@ -1,0 +1,1 @@
+ipnocountry <- data |> filter(!is.na(external_url),is.na(country))
